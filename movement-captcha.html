@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="movement-captcha.css">
+    
+    <meta charset="utf-8" />
+    
+  </head>
+  <body>
+
+    <div class = "container">
+      <div class="header">
+  
+        <a href="../desktop/desktop.html" class="close"></a></a>
+
+          <script src="movement-captcha.js"></script>
+
+        </div>
+
+        <div class="instruction">
+          
+            Use your wrist to drag the blue circle into the red circle.
+          
+        </div>
+
+        <div id="counter"> <span id="counter-value">0</span>/5</div>
+    </div>
+      
+    <a href="../captcha-key/captcha-key.html" class="continue-button">
+    <button id="next-page-btn" class="hidden">
+      Continue
+    </button>
+    </a>
+
+    <div class="captchr-footer">
+      <img class="captchr-logo"src="../images/CAPTCHR LOGO.png">
+      
+      <div class="captchr-name">Movement</div>
+    </div>
+      
+      <!--footer-->
+
+<div class="footer">
+
+  <div class="home">
+      <div class="homebtn"></div>
+      <div class="home-content">
+        <a href="../0-intro/index.html">Log Out</a>
+      </div>
+  </div>
+
+  <div class="folder">
+      <a href="../folder/folder.html">
+          <img class ="folder" src="../images/folder.png">
+      </a>
+  </div>
+
+  <div class="email">
+      <a href="../email/email.html">
+          <img src="../images/email.png"
+          width="54">
+      </a>
+  </div>
+  
+  <div class="browser">
+      
+          <a href="../browser-clicked/browser-main.html">
+              <img src="../images/globe-image.png" alt="internet"
+          height="50"
+          width="50" 
+          >
+          <img class = "image-hover" src ="../images/globe-image-hover.png" alt="internet-select"
+          height="50"
+          width="50"
+          >
+          </a>
+  </div>
+
+  <div class="time-container">
+      <span id='ct7'></span>      
+  <script src="time.js"> </script>
+  </div>
+  
+  
+</div>  
+
+<!--desktop icons-->
+<a href="../folder/folder.html"> <img class ="folder-desktop" src="../images/folder-document.png"></a>
+      
+    
+      
+      
+      
+    
+  </body>
+</html>
